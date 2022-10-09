@@ -73,6 +73,7 @@ button::-moz-focus-inner {
 
 a,
 a:visited {
+  color: #ffe600;
   text-decoration: none;
   transition: all 0.4s ease 0s;
 }
@@ -116,7 +117,7 @@ body {
   display: inline-block;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  color: #1eff00;
+  color: #ff00dd;
   padding-top: 12px;
   padding-bottom: 12px;
   font-weight: 1000;
@@ -179,7 +180,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 12px;
-  color: #1eff00;
+  color: #ff00dd;
   padding: 21px 30px;
   transition: all 0.4s ease 0s;
   -webkit-border-radius: 12px;
@@ -275,8 +276,8 @@ body {
   align-items: center;
   width: 50%;
   position: relative;
-  filter: drop-shadow(0px 0px 6px #1eff00);
-  -webkit-filter: drop-shadow(0px 0px 6px #1eff00);
+  filter: drop-shadow(0px 0px 6px #ffe600);
+  -webkit-filter: drop-shadow(0px 0px 6px #ffe600);
   -webkit-animation: bounce-in-right 1.1s both;
   animation: bounce-in-right 1.1s both;
 }
@@ -350,7 +351,7 @@ body {
   height: 50px;
   width: 40%;
   padding: 0 15px;
-  color: #3b2f7d;
+  color: #000000;
   font-size: 15px;
   font-weight: 500;
   transition: all 0.4s ease 0s;
@@ -379,7 +380,7 @@ body {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #1eff00;
+  color: #ff00dd;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
@@ -404,7 +405,7 @@ body {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #1eff00;
+  color: #ff00dd;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
@@ -434,7 +435,7 @@ body {
 }
 
 .link-follow {
-  color: #d6d4e1;
+  color: #ffffff;
   font-weight: 700;
   transition: all 0.4s ease 0s;
 }
@@ -446,7 +447,7 @@ body {
 .link-fot {
   font-size: 15px;
   font-weight: 500;
-  color: #d6d4e1;
+  color: #ffffff;
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
 }
@@ -723,7 +724,7 @@ textarea.error {
     height: 50px;
     width: 40vw;
     padding: 20px 26px;
-    color: #3b2f7d;
+    color: #000000;
     font-size: 15px;
     font-weight: 700;
     transition: all 0.4s ease 0s;
@@ -733,7 +734,7 @@ textarea.error {
     -o-border-radius: 8px;
 }
   .in-form::placeholder, .in-form::-moz-placeholder, .in-form::-webkit-placeholder {
-    color: #3b2f7d;
+    color: #000000;
     font-size: 15px;
     font-weight: 500;
   }
